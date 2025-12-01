@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # App Title and Description with emojis
-st.title("AI Recipe Generator 🥑🥗")
+st.title("AI Recipe Generator")
 st.markdown("##### Get healthy recipe ideas powered by Gemini-2.5")
 
 # Using st.form for better input handling and to clear the input after submission
@@ -31,7 +31,7 @@ with st.form(key='recipe_form'):
 # Logic to generate and display the recipe
 if submit_button and user_input:
     # Adding a loading spinner
-    with st.spinner("Cooking up a delicious recipe for you... 👨‍🍳"):
+    with st.spinner("Cooking up a delicious recipe for you..."):
         # The prompt is now dynamic, using the user's input
         prompt = f"Based on '{user_input}', what are some healthy dinner ideas? Include a name for the dish, a brief description, ingredients with specific measurements, step-by-step instructions, and nutritional information."
         try:
