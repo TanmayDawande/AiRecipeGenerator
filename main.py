@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 #loading the environment variables from .env file
 load_dotenv()
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Setting up a more visually appealing page configuration
