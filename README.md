@@ -4,6 +4,8 @@
 <img src="https://img.shields.io/badge/Google_Gemini-3F83F8?style=for-the-badge&logo=google&logoColor=white" alt="Gemini API Badge">
 </p>
 
+Click here to try!: <a href="https://airecipegen1.streamlit.app/" target="_blank">Ai Recipe Gen</a>
+
 This is an AI-powered recipe generator, built with Streamlit and the Google Gemini API, creates healthy and personalized recipes from the ingredients you already have.
 
 A quick demo of the AI Recipe Generator in action.
